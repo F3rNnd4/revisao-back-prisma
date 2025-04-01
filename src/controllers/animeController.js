@@ -89,6 +89,7 @@ class AnimeController {
   updateAnime(req, res) {
     try {
       const { id } = req.params;
+      
       const {
         title,
         description,
